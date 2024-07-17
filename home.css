@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #6bd4de59;
+}
+
+.header-item img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.sec1 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    animation: slideIn 1s cubic-bezier(0.075, 0.82, 0.165, 3);
+
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        /* Start off-screen to the left */
+    }
+
+    to {
+        transform: translateX(0);
+        /* End at the original position */
+    }
+}
+
+.name {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ee1919de;
+    background: linear-gradient(to right, black, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+.about-self {
+    font-size: .9rem;
+    margin-top: 5px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: 20px 50px;
+    box-shadow: 2px 4px 8px 2px #00000054;
+    border-radius: 10px;
+    background-color: #a4b7da54;
+}
+.you-know{
+    font-size: 2rem;
+  font-weight: bold;
+}
+.from{
+    margin-top: 25px;
+}
+.collage{
+    margin-top: 5px
+}
+.heading{
+    font-size: 2rem;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.project1{
+    margin: 20px 50px;
+  background-color: #a4b7da54;
+  box-shadow: 2px 4px 8px 2px #00000054;
+  border-radius: 10px;
+  padding: 20px;
+}
+.technologies{
+    display: flex;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+}
+.technologies p{
+  margin-right: 20px;
+}
+.about{
+    margin-top: -20px;
+}
+.about p{
+    margin-top: -10px;
+}
+.button{
+    padding: 5px 30px;
+}
+.s1 img{
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+}
+.s1{
+    display: flex;
+    justify-content: center;
+}
+.socials{
+    padding: 10px;
+  background-color: #7670704a;
+}
+.container{
+    margin: 0px 50px;
+    box-shadow: 2px 4px 8px 2px #00000054;
+}
+.connect{
+    align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.massage input{
+    height: 25px;
+    width: 250px;
+    border: 1px solid #2d80b2d4;
+  border-radius: 5px;
+}
+.massage{
+    text-align: center;
+    border: 1px ;
+}
+.media img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.this-is-footer{
+    height: 30vh;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+background-color:  #67676736;
+}
+.sec5{
+    margin: 30px 0px;
+}
+.massage button{
+    margin: 15px;
+  padding: 10px 100px;
+  color: white;
+  background-color: #787c7d99;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px black;
+}
