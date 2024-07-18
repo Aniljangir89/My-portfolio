@@ -20,6 +20,11 @@
             <div class="name">Hi,I'm Anil.</div>
             <div class="location">Bikaner, RJ, IN</div>
             <div class="about-self">I am a web developer with compititive programmer|</div>
+            <div class="resume">
+                <a href="https://drive.google.com/file/d/18jPoRwEz9B8DFolFeDK0i0Wanvq1aW77/view?usp=sharing">
+                    <button>resume</button>
+                </a>
+            </div>
         </section>
         <section class="sec2">
             <div class="you-know">You Know</div>
@@ -125,20 +130,26 @@
                     </a>
 
                 </div>
-                <div class="massage">
-                    <p>Name</p>
-                    <input type="name" value="">
-                    <p>Email</p>
-                    <input type="email" value="">
-                    <p>Massage</p>
-                    <input type="massage" value="" style="height: 50px;">
-                    <button class="button">Send</button>
-                </div>
+                <form  class="action" action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="16cf92e7-e94e-46d4-87e7-93cc971eb76c">
+                
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your E-mail" required>
+                    <textarea name="message" placeholder="Write massage" required></textarea>
+                    <button type="submit">Submit Form</button>
+                
+                </form>
             </div>
         </section>
 
     </main>
     <footer class="this-is-footer">
+        <div class="leetcode">
+            <a href="https://leetcode.com/u/anilkumar89/">
+                <img src="image/leetcode-logo.png" alt="">
+            </a>
+        </div>
         <div class="media">
             <img src="image/t-twitterlogo.webp" alt="">
             <img src="image/t-linkdienlogp.png" alt="">
@@ -147,11 +158,6 @@
         </div>
         <div class="reversed">&copy;All rights reserved</div>
     </footer>
-
-
-
-
-
     <script src="scripts.js"></script>
 </body>
 

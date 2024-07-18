@@ -3,7 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #a55a3c7a;
-
 }
 
 .header-item img {
@@ -147,19 +146,7 @@ body {
     width: 30px;
     margin-right: 20px;
 }
-.massage input{
-    height: 25px;
-    width: 250px;
-    border: none;
-  border-radius: 20px;
-  box-shadow: 1px 2px 4px black;
 
-}
-
-.massage{
-    text-align: center;
-    border: 1px ;
-}
 .media img{
     height: 40px;
     border-radius: 50%;
@@ -175,13 +162,61 @@ background-color:  #67676736;
 .sec5{
     margin: 30px 0px;
 }
-.massage button{
-    margin: 15px;
-  padding: 10px 100px;
-  color: white;
-  background-color: #787c7d99;
-  border-radius: 8px;
-  font-weight: bold;
-  box-shadow: 2px 2px 5px black;
+.action{
+    margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.action input{
+    height: 35px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 4px black;
   border: none;
+  padding: 0px 10px;
+}
+.action textarea{
+    height: 50px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 1px 2px 4px black;
+  border: none;
+  padding: 10px;
+}
+.action button{
+    margin-bottom: 20px;
+  height: 35px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 1px 2px 4px black;
+  border: none;
+}
+.action button:hover{
+    color: white;
+    background-color:black;
+}
+.leetcode a img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #35454896;
+}
+.leetcode a{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+.resume a button{
+    height: 30px;
+  width: 100px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: #7a8a8abd;
+  box-shadow: 1px 2px 5px #2c2929;
 }
